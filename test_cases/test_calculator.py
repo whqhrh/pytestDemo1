@@ -7,7 +7,6 @@ import yaml
 currentpath = os.path.dirname((os.path.abspath(__file__)))
 rootPath = os.path.dirname(currentpath)
 yamlPath = os.path.join(rootPath, r'datas\calc.yaml')
-reportPath = os.path.join(rootPath, r'outputs\reports')
 
 
 def get_datas():
