@@ -20,7 +20,7 @@ class TestCalculator:
 
     @pytest.mark.smoke
     @pytest.mark.run(oder=3)
-    @allure.feature('加法运算1')
+    @allure.feature('加法运算')
     @allure.story('整数加法')
     @allure.severity('noraml')
     def test_add(self, initcalc_class, get_add_datas):
@@ -35,7 +35,7 @@ class TestCalculator:
             assert expect == result
 
     @pytest.mark.run(oder=2)
-    @allure.feature('加法运算2')
+    @allure.feature('加法运算')
     @allure.story('浮点数加法')
     @allure.severity('noraml')
     def test_add_float(self, initcalc_class, get_add_datas1):
